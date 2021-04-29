@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:drawableLeft="@drawable/cadastro"
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="Cadastro"
+                android:layout_gravity="center"
+                android:textColor="@color/preto"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/lblmsg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nome Completo:"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/preto"/>
+
+            <EditText
+                android:id="@+id/txtNomeCad"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                />
+
+            <TextView
+                android:id="@+id/lblmsg5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CPF:"
+                android:textStyle="bold"
+                android:textColor="@color/preto"
+                />
+
+            <EditText
+                android:id="@+id/txtCPF"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                />
+
+            <TextView
+                android:id="@+id/lblmsg6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Número:"
+                android:textStyle="bold"
+                android:textColor="@color/preto"
+                />
+
+            <EditText
+                android:id="@+id/txtNumero"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                />
+
+            <TextView
+                android:id="@+id/lblmsg7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Convênio:"
+                android:textStyle="bold"
+                android:textColor="@color/preto"
+                />
+
+            <EditText
+                android:id="@+id/txtConvenio"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                />
+
+            <TextView
+                android:id="@+id/lblmsg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E-mail:"
+                android:textStyle="bold"
+                android:textColor="@color/preto"/>
+
+            <EditText
+                android:id="@+id/txtEmailCad"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Senha:"
+                android:textStyle="bold"
+                android:textColor="@color/preto"/>
+
+            <EditText
+                android:id="@+id/txtSenhaCad"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/lblmsg4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Confirmar Senha:"
+                android:textStyle="bold"
+                android:textColor="@color/preto"/>
+
+            <EditText
+                android:id="@+id/txtConfSenhaCad"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="Leia os termos"
+                android:background="@drawable/roundedbutton2"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/branco"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Li e concordo com os termos e condições"
+                android:textSize="13dp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btnSalvar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="CRIAR CONTA"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/preto"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+</ScrollView>

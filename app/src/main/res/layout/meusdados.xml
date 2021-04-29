@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="00dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Smile care"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/retangulo"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="136dp"
+        android:layout_marginTop="12dp"
+        android:drawableLeft="@drawable/icone_conta"
+        android:textColor="@color/preto"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+    <TextView
+        android:id="@+id/lblmsg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:textColor="@color/preto"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtNomeMeusDados"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        android:background="@color/cinzaclaro"
+        android:textColor="@color/preto"
+        />
+
+        <TextView
+            android:id="@+id/lblcpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CPF:"
+            android:textColor="@color/preto"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/txtCpfMeusDados"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:background="@color/cinzaclaro"
+            android:textColor="@color/preto" />
+
+        <TextView
+            android:id="@+id/lblNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Número:"
+            android:textColor="@color/preto"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/txtNumeroMeusDados"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:background="@color/cinzaclaro"
+            android:textColor="@color/preto" />
+
+        <TextView
+            android:id="@+id/lblConvenio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Convenio:"
+            android:textColor="@color/preto"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/txtConvenioMeusDados"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:inputType="text"
+            android:layout_gravity="center"
+            android:background="@color/cinzaclaro"
+            android:textColor="@color/preto" />
+
+    <TextView
+        android:id="@+id/lblmsg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail:"
+        android:textColor="@color/preto"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtEmailMeusDados"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        android:background="@color/cinzaclaro"
+        android:textColor="@color/preto" />
+
+    <TextView
+        android:id="@+id/lblmsg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha:"
+        android:textColor="@color/preto"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtSenhaMeusDados"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:inputType="numberPassword"
+        android:layout_gravity="center"
+        android:background="@color/cinzaclaro"
+        android:textColor="@color/preto" />
+
+</LinearLayout>
+</LinearLayout>
+    </HorizontalScrollView>
+</ScrollView>

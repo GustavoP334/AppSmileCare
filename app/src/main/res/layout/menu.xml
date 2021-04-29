@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="0dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Smile Care"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/retangulo"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNomeUsuario"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/btnMeusDados"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Meus Dados"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center"
+        android:background="@drawable/roundedbutton5"
+        android:textStyle="bold"
+        android:textColor="@color/preto"/>
+
+    <Button
+        android:id="@+id/btnCadastrarContatos"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Convênio"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/roundedbutton5"
+        android:textStyle="bold"
+        android:textColor="@color/preto"/>
+
+    <Button
+        android:id="@+id/btnListaUsuarios"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Meus Cadastros"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/roundedbutton5"
+        android:textStyle="bold"
+        android:textColor="@color/preto"/>
+
+    <Button
+        android:id="@+id/btnPedido"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Consultas"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/roundedbutton5"
+        android:textStyle="bold"
+        android:textColor="@color/preto"/>
+
+    <Button
+        android:id="@+id/btnAgendar"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Agendar"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/roundedbutton5"
+        android:textStyle="bold"
+        android:textColor="@color/preto"/>
+
+</LinearLayout>
