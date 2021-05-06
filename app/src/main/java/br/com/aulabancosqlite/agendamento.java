@@ -41,7 +41,7 @@ public class agendamento extends AppCompatActivity implements View.OnClickListen
     }
     public void onClick(View v)
     {
-        String data = txtData.getDayOfMonth() + "/" + txtData.getDayOfMonth() + "/" + txtData.getYear();
+        String data = txtData.getDayOfMonth() + "/" + txtData.getMonth() + "/" + txtData.getYear();
         String hora = (String) txtHora.getSelectedItem();
 
         BancoController bd = new BancoController(getBaseContext());
