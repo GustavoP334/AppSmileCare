@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtNome" type="id" />
+    <item name="Nome" type="id" />
+    <item name="txtCodigo" type="id" />
+    <item name="btAlterar" type="id" />
+    <item name="btConsultar" type="id" />
+    <item name="btSalvar" type="id" />
+    <item name="btExcluir" type="id" />
+    <item name="txtEmail" type="id" />
+    <item name="Email" type="id" />
+</resources>
