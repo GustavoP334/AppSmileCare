@@ -58,13 +58,6 @@ public class menu extends AppCompatActivity  implements View.OnClickListener {
             Intent telaListaUsuarios = new Intent(this, ConsultaLista.class);
             startActivity(telaListaUsuarios);
         }
-        if (v.getId() == R.id.btnPedido) {
-            Intent telaPedido = new Intent(this, pedido.class);
-            Bundle parametros = new Bundle();
-            parametros.putString("nome",nome);
-            telaPedido.putExtras(parametros);
-            startActivity(telaPedido);
-        }
         if (v.getId() == R.id.btnAgendar) {
             Intent telaAgendamento = new Intent(this, agendamento.class);
             Bundle parametros = new Bundle();
@@ -72,5 +65,13 @@ public class menu extends AppCompatActivity  implements View.OnClickListener {
             telaAgendamento.putExtras(parametros);
             startActivity(telaAgendamento);
         }
+        if (v.getId() == R.id.btnPedido) {
+            Intent telaPedido = new Intent(this, pedido.class);
+            Bundle parametros = new Bundle();
+            parametros.putString("nome",nome);
+            telaPedido.putExtras(parametros);
+            startActivity(telaPedido);
+        }
+
     }
 }

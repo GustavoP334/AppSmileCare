@@ -65,6 +65,17 @@
         android:textColor="@color/preto"/>
 
     <Button
+        android:id="@+id/btnAgendar"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Agendar"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/roundedbutton5"
+        android:textStyle="bold"
+        android:textColor="@color/preto"/>
+
+    <Button
         android:id="@+id/btnPedido"
         android:layout_width="300dp"
         android:layout_height="60dp"
@@ -75,15 +86,6 @@
         android:textStyle="bold"
         android:textColor="@color/preto"/>
 
-    <Button
-        android:id="@+id/btnAgendar"
-        android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:text="Agendar"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"
-        android:background="@drawable/roundedbutton5"
-        android:textStyle="bold"
-        android:textColor="@color/preto"/>
+
 
 </LinearLayout>
