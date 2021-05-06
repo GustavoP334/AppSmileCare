@@ -62,9 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onGroupExpand(int groupPosition) {
-                Toast.makeText(getApplicationContext(),
-                        " Lista aumentada",
-                        Toast.LENGTH_SHORT).show();
+
             }
         });
 
@@ -73,9 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onGroupCollapse(int groupPosition) {
-                Toast.makeText(getApplicationContext(),
-                        " Lista diminuída",
-                        Toast.LENGTH_SHORT).show();
+
 
             }
         });
