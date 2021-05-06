@@ -41,15 +41,15 @@ public class pedido extends Activity {
         List<ConsultasModelo> lista = new LinkedList<ConsultasModelo>();
 
         BancoController bd = new BancoController(getBaseContext());
-        Cursor dados = bd.consultaAgendaHora(data, hora) ;
-
+        //Cursor dados = bd.consultaAgendaHora(data, hora) ;
+        Cursor dados = bd.consultaAgenda() ;
         if(dados != null) {
             do  {
                 ConsultasModelo item = new ConsultasModelo();
                 item.setCodigo(dados.getInt(0));
                 item.setNome(dados.getString(1));
-                item.setHora(dados.getString(2));
-                item.setData(dados.getString(3));
+                item.setHora(dados.getString(3));
+                item.setData(dados.getString(2));
                 lista.add(item);
             } while(dados.moveToNext());
         }else{

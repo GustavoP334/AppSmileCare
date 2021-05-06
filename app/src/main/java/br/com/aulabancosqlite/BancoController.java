@@ -145,6 +145,21 @@ public class BancoController {
 		db.close();
 		return cursor;
 	}
+
+	public Cursor consultaAgenda() {
+		Cursor cursor;
+		String[] campos = { "codigo", "nome", "data", "hora" };
+
+		db = banco.getReadableDatabase();
+		cursor = db.query("agendamento", campos, null, null, null, null,	null, null);
+
+		if (cursor != null) {
+			cursor.moveToFirst();
+		}
+
+		db.close();
+		return cursor;
+	}
 	public Cursor carregaDadosLogin(String Login, String SenhaLogin) {
 		Cursor cursor;
 		String[] campos = { "codigo", "nome", "email", "senha" };
